@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #2d2a32;
+  font-family: "Roboto Mono", monospace;
+
+  .heading {
+    color: antiquewhite;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    z-index: 1;
+    text-align: center;
+    letter-spacing: 0.5rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .heading {
+    margin: 15px 0;
+    font-size: 1.5rem;
+  }
+}
